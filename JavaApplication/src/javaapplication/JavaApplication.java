@@ -5,6 +5,8 @@
  */
 package javaapplication;
 
+import java.util.Arrays;
+
 /**
  *
  * @author mspace
@@ -22,7 +24,11 @@ public class JavaApplication {
         
         int[] digit = {1,2,3,4,5,6};
         
-        System.out.println(digit);
+        System.out.println(digit);// int memory address
+        
+        System.out.println(Arrays.toString(digit));
+        
+        System.out.println(Arrays.toString(staff));
         
         
     }
