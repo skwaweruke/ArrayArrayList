@@ -7,10 +7,7 @@ package javaapplication;
 
 import java.util.Arrays;
 
-/**
- *
- * @author mspace
- */
+
 public class JavaApplication {
 
     /**
@@ -23,6 +20,10 @@ public class JavaApplication {
         System.out.println(staff);// String Object Memory Address
         
         int[] digit = {1,2,3,4,5,6};
+
+        int[] alpa = new int[3];
+
+        System.out.println("It is an array memory "+alpa+" and content is "+ Arrays.toString(alpa));
         
         System.out.println(digit);// int memory address
         
