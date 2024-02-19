@@ -24,6 +24,14 @@ public class JavaApplication {
         int[] alpa = new int[3];
 
         System.out.println("It is an array memory "+alpa+" and content is "+ Arrays.toString(alpa));
+
+
+        for (var i = 0; i < digit.length; i++) {
+            var each = digit[i];
+
+            System.out.println(each);
+            
+        }
         
         System.out.println(digit);// int memory address
         
